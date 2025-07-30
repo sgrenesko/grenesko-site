@@ -140,6 +140,7 @@
 
   .project-box {
     max-width: 327px;
+    height: 200px; /* Add this line */
   }
 
   .about,
@@ -156,25 +157,6 @@
 @media (max-width: 720px) {
   .project-box {
     max-width: 100%;
+    height: 200px; /* Add this line */
   }
-}
-
-@media (max-width: 406px) {
-  .hero-img {
-    flex: 1 1 100%;
-  }
-}
-
-.project-box {
-  position: relative;
-  overflow: hidden;
-  display: block;
-  max-width: 510px; /*  Or whatever width you want */
-  height: 300px; /*  Set a fixed height */
-}
-
-.project-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /*  This is the key property */
 }
