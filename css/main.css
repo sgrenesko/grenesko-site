@@ -36,7 +36,6 @@ body {
 .container {
   padding: 0 32px;
   max-width: 1200px;
-  /* max-width: clamp(54.5rem, 38.125rem + 81.88vw, 120rem); */
   margin: 0 auto;
 }
 
@@ -289,6 +288,19 @@ h5 {
   gap: 90px;
   margin-bottom: 80px;
   color: var(--supportive-text-color);
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.about-images img {
+  max-width: 350px;
+  height: auto;
+  display: block;
 }
 
 .about-descr {
