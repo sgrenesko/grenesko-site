@@ -16,6 +16,7 @@
   --gray-color: #2b3137;
   --gray-color-2: #2b3137;
   --gray-color-3: #2b3137;
+  --empty-color: #FFFFFF;
 
   --color-preloader-bg: var(--white-color);
   --color-dots: #1a1a1a;
@@ -60,7 +61,7 @@ body {
   line-height: 52px;
   padding: 0 36px;
   margin: 0 12px 16px 0;
-  color: var(--white-color);
+  color: var(--empty-color);
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -75,7 +76,7 @@ body {
 .btn:focus {
   background-color: var(--secondary-accent);
   border-color: var(--secondary-accent);
-  color: var(--white-color);
+  color: var(--primary-accent);
   outline: 0;
 }
 
@@ -95,7 +96,7 @@ body {
 .btn-white:focus {
   background: var(--primary-accent);
   border: 2px solid var(--primary-accent);
-  color: var(--white-color);
+  color: var(--empty-color);
 }
 
 .btn-white:active {
@@ -320,7 +321,8 @@ h5 {
 .skill-title,
 .skill-percent {
   display: inline-block;
-  font-size: 16px;
+  font-style: italic;
+  font-size: 20px;
   font-weight: 400;
   /* text-transform: uppercase; */
   letter-spacing: 0px;
@@ -330,7 +332,7 @@ h5 {
   float: right;
 }
 .skill-bar__progress {
-  background-color: var(--gray-color);
+  background-color: var(--empty-color);
   border-radius: 5px;
   height: 4px;
   width: 100%;
